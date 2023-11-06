@@ -57,33 +57,34 @@
 
 //Student information management :
 
-// alert("Student Information Management");
-// var name = prompt("Enter Student's name:");
-// var age = parseInt(prompt("Enter Student's age:"));
-// var grade = prompt("Enter Student's grade:");
+alert("Student Information Management");
+var name = prompt("Enter Student's name:");
+var age = parseInt(prompt("Enter Student's age:"));
+var grade = prompt("Enter Student's grade:");
 
-// let ob = {
-//     name:name,
-//     age:age,
-//     grade:grade,
+let ob = {
+    name:name,
+    age:age,
+    grade:grade,
     
-//     meth: function(){
-//         alert(`Student details: \n\nname: ${this.name} \nage: ${this.age} \ngrade: ${this.grade}`);
-//     }
-// };
+    meth: function(){
+        alert(`Student details: \n\nname: ${this.name} \nage: ${this.age} \ngrade: ${this.grade}`);
+    },
+    s1: ()=>{
+        var name = prompt("Enter Student's name:");
+        var age = parseInt(prompt("Enter Student's age:"));
+        var grade = prompt("Enter Student's grade:");
+        alert(`Student details: \n\nname: ${this.name} \nage: ${this.age} \ngrade: ${this.grade}`)
+    },
+    s2: ()=>{
+        var name = prompt("Enter Student's name:");
+        var age = parseInt(prompt("Enter Student's age:"));
+        var grade = prompt("Enter Student's grade:");
+        alert(`Student details: \n\nname: ${this.name} \nage: ${this.age} \ngrade: ${this.grade}`)
+    }
+};
 
-// ob.meth();
+ob.meth();
+ob.s1();
+ob.s2();
 
-// let arr =["apple","banana","orange","grape"];
-// arr.forEach(function (elements,index,){
-//     console.log(`${index}, ${elements}`);
-// });
-
-
-// let n = [1,2,3,4,5];
-// let s = n.reduce((re,c) => re+c);
-// console.log(s);
-
-console.log(a);
-let a = 10;
-console.log(a);
