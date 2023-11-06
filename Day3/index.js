@@ -54,3 +54,17 @@ switch (op){
         break;
     
 }
+
+//Map 
+
+const arr = [1,2,3,4,5];
+const thrice = arr.map((num) =>{
+    return num*3;
+});
+console.log(thrice);
+
+const arr1 = [1,2,3,4,5];
+const res = arr1.reduce((acc , curval) =>{
+    return acc*curval;
+});
+console.log(res);
