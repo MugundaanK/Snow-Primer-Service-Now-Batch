@@ -1,0 +1,46 @@
+SDLC - Software Development Life Cycle
+Planning
+Analysis
+Design
+Implementation
+testing
+Deployment
+Maintenance
+
+waterfall model:
+details are marked clearly in an elaborated model in FRS it is a sequential manner process and that process is one by one steps.
+once started user interacts with the requirement and designing phase later the user is involved in the testing phase 
+advantages: The entire outlook of the project can be gathered at the start itself, and clear documentation in every phase, is most suited for well-defined projects
+
+disadvantages: It is less flexible, client interaction is less, and late detection of error due to testing at the end 
+
+cycle:
+requirement Gathering
+System Design
+Implementation
+Testing
+Deployment
+Maintenance
+
+Agile model:
+It is an interactive and iterative model client is involved from the start and in between the module completion and the requirements and the remarks are noted, adopted, and advanced in the communication and collaboration between the client and all teams
+sprint - the period of time to complete the module 
+advantages:
+Adaptability
+enhanced communication and collaboration
+early continuous Delivery
+improved transparency
+disadvantages:
+less documentation and design
+Risk for never-ending project
+need for expert
+
+
+
+Scrum:
+scrum is the agile methodology that is used to complete the project by iterative process and deliver in the short term by the use of certain roles such as product owner, scrum master, development, Q&A team
+
+
+
+
+

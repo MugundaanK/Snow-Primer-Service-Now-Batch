@@ -1,0 +1,67 @@
+Javascript datatype:
+to declare variables we use let, var, and const.
+Primitive type:
+1. number - define integer data type 
+2. String - Stores the String literals we can use ' " `
+3. Boolean - Stores the true or false values
+4. Undefined - Stores some values until the real value is assigned
+5. Null - stores null values
+
+Reference :
+1. Array - Stores group of values of similar datatype in a single variable let arr=[1,2,3]
+2. Object - is to store the object values let obj={ name: "mugunth", age:22}
+
+to print the output we use console.log();
+
+Javascript datatype:
+to declare variables we use let, var, and const.
+Primitive type:
+1. number - define integer data type let a=10;
+2. String - Stores the String literals we can use ' " `let str='string' , let str="string" let str=`String${str}`;
+3. Boolean - Stores the true or false values let a = true;
+4. Undefined - Stores some values until the real value is assigned let a;	console.log(a);
+5. Null - stores null values
+
+Reference :
+1. Array - Stores group of values of similar datatype in a single variable let arr=[1,2,3]
+2. Object - is to store the object values let obj={ name: "mugunth", age:22}
+
+to print the output we use console.log();
+
+Scopes in js:
+1. global scope - scope has globally in the js file, declared outside function or block.
+2. function scope - scope has over the function in which it is declared.
+3. block scope - scope over the block in which it is declared.
+
+Operators in JS are the same as in Java and the Control Statements
+
+functions:
+declaration type of js : 3 types
+1. method declaration
+function func_name(param){
+}
+func_name(param);
+
+2. Anonymous methods / Method Expression
+let method_exp(variable name) = 
+function func_name(param){
+	function block;
+}
+method_exp(variable name)(param);
+
+3. Arrow function 
+let arrow_func_name = (a) =>{
+function block;
+}
+console.log(arrow_func_name(param));
+
+
+console.log("10" + "40");   // 1040
+console.log(6 - 5);     //1 
+console.log("Rohan" + "Rao");  // Rohan Rao
+console.log(" "+"0");         // 0
+console.log("Ramesh" - "Rao");   // NaN
+console.log(true+true);   //2
+console.log(true+ false); // 1 
+console.log(false+true);  // 1
+console.log(false-true); //  -1

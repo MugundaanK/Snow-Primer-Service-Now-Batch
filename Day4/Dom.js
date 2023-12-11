@@ -21,8 +21,10 @@
 // //EventListener:
 // const p2=document.getElementById('p2');
 
-// function listener(){
+// function listener(event){
 //     console.log("Bye! Mugundaan....");
+//     console.log(event);
+//     console.log(`Event type : `,event.type);
 // }
 // p2.addEventListener('click',listener)
 
@@ -31,3 +33,4 @@
 //     t.style.color="red";
 // }
 // t.addEventListener('click',clicked);
+

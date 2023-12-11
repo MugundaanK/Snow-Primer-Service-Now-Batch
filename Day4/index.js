@@ -52,7 +52,7 @@
 // let p2 = new person("Mugunth",22,"A");
 // console.log(p2);
 
-// // Inheritance:
+// // Abstraction:
 // class person{
 //     constructor(name,age,grade){
 //         this.name = name;
@@ -123,16 +123,16 @@
 //         return this.name;
 //     }
 // }
-let s = [
-    {name : "Mugunth",age : 10},
-    {name :"Madhav", age :15},
-    {name: "Madhav", age:20},
-    {name: "Gowsick", age:25}, 
-    {name: "HArish", age: 30}
-];
+// let s = [
+//     {name : "Mugunth",age : 10},
+//     {name :"Madhav", age :15},
+//     {name: "Madhav", age:20},
+//     {name: "Gowsick", age:25}, 
+//     {name: "HArish", age: 30}
+// ];
 
-let eligible = s.filter((s) => s.age>=20);
-console.log(eligible);
+// let eligible = s.filter((s) => s.age>=20);
+// console.log(eligible);
 
 //Closure:
 
@@ -144,3 +144,10 @@ console.log(eligible);
 //     f2();
 // }
 // f1();
+
+function sum(...numbers){
+    for(let data of numbers){
+        total += data;
+    }
+}
+console.log(sum(1,2,3,4,5));

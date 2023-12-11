@@ -1,0 +1,26 @@
+#body{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: double;
+
+}
+
+#stopwatch{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+#clock{
+    font-size: 20px;
+}
+
+#btn{
+    margin-top: 2%;
+    padding: 10px;
+}
+
+#start,#stop,#reset{
+    font-size: large;
+}

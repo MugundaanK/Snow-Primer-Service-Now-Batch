@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang Man Game</title>
+    <script src="game.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 id="gname">Hang Man Game</h3>
+    <p></p>
+    <div id="body">
+        <div id="attempt">
+            <p id="Lives"> No of Lives Left:</p>
+            <p id="lcount"> 5 </p>
+        </div>
+        <div id="disp">
+            <div id="dash"></div>
+            <div id="result"></div>
+        </div>
+        
+        <label for="text">Enter ur guessed letter from A to Z:</label><br>
+        <input type="text" id="letter"> <br>
+        <button id="check" onclick="game()">Check</button>      
+    </div>
+</body>
+</html>
+
+<!-- <a href="https://www.google.com" target="_blank"> <button>Google</button></a> -->

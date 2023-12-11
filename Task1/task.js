@@ -35,3 +35,25 @@ console.log(s3.trim());
 let a = " Hi!";
 let b = " Everyone...";
 console.log(a.concat(b));
+
+
+
+let prom = new Promise((resolve, reject) => {
+    console.log("Please wait...");
+
+    setTimeout(() =>{
+        if(2>=1){
+            resolve("Success");
+        }
+        else{
+            reject("Failed");
+        }
+    },4000);
+});
+
+prom.then((result) => {
+    console.log(result);
+})
+.catch((result) => {
+    console.log(result);
+})

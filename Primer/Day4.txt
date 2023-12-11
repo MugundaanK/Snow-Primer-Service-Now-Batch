@@ -1,0 +1,120 @@
+OOPS in js:
+
+
+class:
+class person{
+    constructor(name,age,grade){
+        this.name = name;  // this refers to the current block
+        this.age=age;
+        this.grade=grade;
+    }
+}
+let p2 = new person("Mugunth",22,"A"); // object of the class
+console.log(p2);
+
+// Abstraction:
+class person{
+    constructor(name,age,grade){
+        this.name = name;
+        this.age=age;
+        this.grade=grade;
+    }
+    getName(){ // abstraction accessing class properties using another function in the console line
+        return this.name;
+    }
+    getAge(){
+        return this.age;
+    }
+    getgrade(){
+        return this.grade;
+    }
+}
+let p1 = new person("Mugunth",22,"A");
+console.log(p1.getName());
+console.log(p1.getAge());
+console.log(p1.getgrade());
+
+//Inheritance:
+
+class Animals{
+    speak(){
+        console.log("Animals make different sounds");
+    }
+}
+class Dog extends Animals{
+    constructor(name){
+        super(); // must be used in child class
+        this.name=name;
+    }
+    
+}
+let d1 = new Dog("Doggy");
+console.log(d1.speak()); // inheriting parent class method via child class's object
+
+polymorphism: Method overriding // javascript supports only method overriding (Runtime polymorphism)
+class Animals{
+    speak(){
+        console.log("Animals make different sounds");
+    }
+}
+class Dog extends Animals{
+    constructor(name){
+        super(); // must be used in child class
+        this.name=name;
+        console.log(this.name);
+    }
+    speak(){
+        console.log("dog barks"); //overriding the parent class methid in the child class
+    }
+    
+}
+let d1 = new Dog("Doggy");
+d1.speak();  //method in the child class will get executed;
+
+callback function: the functions which are passed as parameters to the other function.
+
+higher-order function: the function that accepts another function as a parameter ex : map, reduce, filter, custom functions.
+
+closure: it is a feature of JavaScript that allows the inner function to access the outer scope of a function. closure helps in binding the function to its outer boundary and is created automatically when a function is created. 
+ 
+Closures: JavaScript allows inner functions to access variables from their outer (enclosing) function's scope because each execution context has its own lexical environment, which includes both local memory for its own variables and a reference to its parent's lexical environment.
+
+lexical environment: variable + parent lexical environment 
+
+Bom; bom is to access the brower-related object.
+
+Dom: 
+Dom provides an interface for HTML and javascript to access HTML pages by javascript
+dom contains all the html elements which are accessed by javascript key features of dom are elements, events these two are the dom objects.
+
+select HTML elements by using selectors;
+
+1.getElementById('<idName>');  ex : document.getElementById('<idName>');  
+to store variable const id1 = document.getElementById('<idName>');  used to store the field for further usage like adding an event listener.
+
+2.getElementsByClassName('className;); to retrieve the collection of HTML elements of same class name const mainclasselement = document.getElementsByClassName('<className>');  
+
+3. getElementsByTagNmae('div'); to retrieve the collection of HTML elements of the same tag name const tag-name = document.getElementsByTagName('TagName');
+
+4. query selector: to retrieve HTML elements based on the query that is passed to it which can be a class name, tag name, or id. but it returns only the first instance of the given query. to access all elements document.querySelectorAll(); should be used. in query selector 1. id, we use # before 2. class name we use "." 3. tag-name nothing needed
+
+Event Registration:		It can be achieved in different ways as adding EventListener and directly adding the event 
+
+Event object: represents the event that occurred within the browser such as user action then automatically passes to the event handler
+
+event.preventDefault : is used to prevent the default function of the browser ex: form 
+
+document.createElement used to create new element in js file.
+two way of adding input to html:
+1. using innerhtml along with html tags.
+2. create html elements using javascript. ex: createElement('<Element Name>') then adding new element to parent element : parent.Element.appendChild(<NewElement>);
+Get Form Data:
+
+
+
+
+
+
+
+
+

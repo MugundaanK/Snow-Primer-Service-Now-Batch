@@ -1,0 +1,69 @@
+How to get input from user using JS:
+
+alert("Hello There"); // Show some alert message once the browser starts execution.
+
+let name = prompt("Enter your name : ");
+console.log(name);
+
+// default parameter :
+
+in defining the parameter 
+function defpar(a,b=20){
+	console,log("b : ",b);
+	console.log("Sum : ", a+b);
+}
+defpar(10,10); in this example, the second assignment in the function initialization will be assigned 
+
+Loops:
+for loop:
+similar to javascript
+2. for in - similar to Python search for array element's indexes return index
+3. for of - gives the array elements as output return data
+4. forEach - array.forEach (function (element, index, array)){console.log(`E : $(element), I : $(index), A : $(array)`)}(not necessary to include 3 parameters)
+
+Array Methods:
+
+1. pop - pops the last element in the array. ans: arr_name.pop();
+2. push - push the element to the array ans: arr_name.push();
+3. shift - used to remove one element in the first index ans: arr_name.shift();
+4. unshift - used to add one element in the first index ans: arr_name.unshift(0);
+5. index of - gives the index of a particular element if it is present ans: arr_name.index of(element);
+6. slice(start_index, end index > 1) - remove the elements between the index and return a separate array but the original array retains all its elements ans: arr_name.slice();
+7. splice - for deleting an element using the index of an element ans: arr_name.splice(start index, no.of.elements to be changed, element to be added);
+8. delete - delete an element in the array by leaving the index as undefined/empty ans: arr_name.delete(index);
+
+
+filter :
+filters the elements from an array and store the consolidated elements in another array based on the filter condition.
+let arr2_name = arr1_namefilter(number,index,array) =>
+{
+	return numbers%2 == 0;
+}
+console.log(arr2_name);
+
+Hoisting:
+hoisting is not possible in the use of let and const only var can be used to achieve hoisting. hoisting is a js mechanism in which the variable is accessed before declaring it same as in function hoisting which the function is invoked before declaring it.
+
+class in JS :
+
+class in real-world entity, also class can contain methods.
+class can be declared in two ways:
+ex: 
+object literal:
+const person ={
+	name: "mugunth",
+	age : 22;
+	city: "Salem";
+}
+
+using class:
+class person{
+	constructor(name,age,city){
+		this.name=name;
+		this.age=age;
+		this.city=city
+	}
+}
+let o = new person("Mugunth",22,"Salem");
+console.log(o.name / o[name]);	/	console.log(person['name']);
+
